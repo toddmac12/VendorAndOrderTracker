@@ -21,6 +21,10 @@ public static List<Vendor>GetAll()
 {
 return _instances;
 }
+public static Vendor Find(int searchID)
+{
+return _instances[searchID-1];
+}
 
     public static void ClearAll()
     {
