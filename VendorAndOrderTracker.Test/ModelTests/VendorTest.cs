@@ -2,7 +2,7 @@ using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using VendorAndOrderTracker.Models;
-using System;
+
 
 namespace VendorAndOrderTracker.Tests
 
@@ -26,6 +26,7 @@ namespace VendorAndOrderTracker.Tests
 
     }
     [TestMethod]
+
     public void GetVendorName_ReturnsVendorName_String()
     {
       Vendor newVendor = new Vendor("testName", "testDescript");
@@ -83,9 +84,25 @@ namespace VendorAndOrderTracker.Tests
       string description02 = "descript2";
       Vendor newVendor1 = new Vendor(name1, description01);
       Vendor newVendor2 = new Vendor(name2, description02);
-     
+
       Vendor result = Vendor.Find(2);
       Assert.AreEqual(newVendor2, result);
+    }
+    [TestMethod]
+    public void AddOrder_MatchOrderWithVendor_OrderList()
+    {
+      string title = "order1";
+      string description = "orderdescript1";
+      int price = 1;
+      string date = "Jan 01";
+      Order newOrder = new Order(title, description, price, date);
+      List<Order> newList = new List<Order> {newOrder};
+      string name = "order011";
+      string vendorDescript = "order01descript";
+      Vendor newVendor = new Vendor(name, vendorDescript);
+      newVendor.AddOrder(newOrder);
+      List<Order> result = newVendor.Orders;
+      CollectionAssert.AreEqual(newList, result);
     }
   }
 }
