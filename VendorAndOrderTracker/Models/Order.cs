@@ -10,9 +10,10 @@ namespace VendorAndOrderTracker.Models
     public string Description { get; set; }
     public int Price { get; set; }
     public string Date { get; set; }
+    public bool IsClosed { get; set; }
     private static List<Order> _instances = new List<Order> { };
     public int Id { get; }
-    public bool IsClosed { get; set; }
+
 
     public Order(string title, string description, int price, string date)
     {
@@ -31,13 +32,13 @@ namespace VendorAndOrderTracker.Models
     }
     public static Order Find(int searchId)
     {
-      return _instances[searchId - 1];
+      return _instances[searchId-1];
     }
- 
-        public static List<Order> GetAll()
-        {
-          return _instances;
-        }
-      }
+
+    public static List<Order> GetAll()
+    {
+      return _instances;
     }
+  }
+}
 

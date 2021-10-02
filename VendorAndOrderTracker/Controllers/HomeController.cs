@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace VendorAndOrderTracker.Controllers
 {
-public class HomeCotroller : Controller
+public class HomeController : Controller
 
 {
 [HttpGet("/")]
