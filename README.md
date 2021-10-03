@@ -11,10 +11,10 @@ This is an MVC application to track vendors and orders.
 * Markdown
 * NuGet
 ## Setup Requirements
-download .NET 5.0 SDK 
-Terminal
-Text Editor (Visual Studio Code)
-download .NET SDK, download links available above for respective machines
+*download .NET 5.0 SDK 
+* Open Terminal
+* Text Editor (Visual Studio Code)
+
 ## Installation Requirements
 * Use the terminal and clone this repository in your preferred directory using https://github.com/toddmac12/VendorAndOrderTracker.git
 * Using the terminal navigate to the project folder using cd ../VendorAndOrderTracker
