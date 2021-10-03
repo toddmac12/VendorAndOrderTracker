@@ -31,7 +31,7 @@ namespace VendorAndOrderTracker.Tests
     {
       Vendor newVendor = new Vendor("testName", "testDescript");
       string name = "testName";
-      string result = newVendor.VendorName;
+      string result = newVendor.Name;
       Assert.AreEqual(result, name);
 
     }
