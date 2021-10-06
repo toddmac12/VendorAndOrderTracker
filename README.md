@@ -11,7 +11,7 @@ This is an MVC application to track vendors and orders.
 * Markdown
 * NuGet
 ## Setup Requirements
-*download .NET 5.0 SDK  [Click on link to macOS](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.401-macos-x64-installer) , [Click on link Windows 64](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.401-windows-x64-installer)
+*download .NET 5.0 SDK  [Click on link for macOS](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.401-macos-x64-installer) , [Click on link for Windows 64](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.401-windows-x64-installer)
 * Open Terminal
 * Text Editor (Visual Studio Code)
 
