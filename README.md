@@ -6,12 +6,12 @@ This is an MVC application to track vendors and orders.
 
 ## Technologies Used
 * C#
-* .NET 5.0
+* .NET 5.0 
 * Git & GitHub
 * Markdown
 * NuGet
 ## Setup Requirements
-*download .NET 5.0 SDK 
+*download .NET 5.0 SDK  [link to macOS](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.401-macos-x64-installer) , [link Windows 64](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.401-windows-x64-installer)
 * Open Terminal
 * Text Editor (Visual Studio Code)
 
