@@ -21,7 +21,7 @@ This is an MVC application to track vendors and orders.
 * Go to the test folder using cd VendorOrder.Tests and run the command dotnet restore from the terminal
 * Run the command dotnet test to confirm the project functionality
 * To run the program itself, navigate from the test folder to the VendorOrder directory by typing cd ../VendorOrder/
-* Inside the VendorOrder directory, type the commands dotnet restore and then dotnet run in the terminal
+* Inside the VendorOrder directory, type the commands ->dotnet restore<- and then ->dotnet run<- in the terminal
 * To see the this in the browser, copy and paste http://localhost:5000 in the browser and click enter
 
 ## License

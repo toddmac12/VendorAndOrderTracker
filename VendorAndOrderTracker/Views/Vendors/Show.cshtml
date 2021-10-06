@@ -4,7 +4,7 @@
 
 <h2>Vendor Name: @Model["vendor"].Name</h2>
 <h2>Vendor Description: @Model["vendor"].Description</h2>
-@if(Model["orders"].Count == 0)
+@if (Model["orders"].Count == 0)
 {
   <p>This Vendor has no orders</p>
 }
@@ -16,8 +16,8 @@
     <li>Order Price: $@order.Price</li>
     <li>Order Date: @order.Date</li>
     <br>
-    
     <li><a href='/vendors/@Model["vendor"].Id/orders/@order.Id'>@order.Title</a></li>
+
   }
 </ul>
 <br>
