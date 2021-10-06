@@ -16,14 +16,20 @@ This is an MVC application to track vendors and orders.
 * Text Editor (Visual Studio Code)
 
 ## Installation Requirements
-* Use the terminal and clone this repository in your preferred directory using https://github.com/toddmac12/VendorAndOrderTracker.git
-* Using the terminal navigate to the project folder using cd ../VendorAndOrderTracker
-* Go to the test folder using cd VendorOrder.Tests and run the command dotnet restore from the terminal
-* Run the command dotnet test to confirm the project functionality
-* To run the program itself, navigate from the test folder to the VendorOrder directory by typing cd ../VendorOrder/
-* Inside the VendorOrder directory, type the commands ->dotnet restore<- and then ->dotnet run<- in the terminal
-* To see the this in the browser, copy and paste http://localhost:5000 in the browser and click enter
+1. Clone this repository in your preferred directory using `https://github.com/toddmac12/VendorAndOrderTracker.git`
+2. Navigate to the `\VendorOrderTracker.Solution` directory
+3. Open with your preferred text editor to view the code base
+* To run the program enter the following commands using the Terminal.
 
+1. Navigate to the `\VendorOrderTracker` directory
+2. Using the terminal at the command prompt, type `dotnet restore`
+3. Using the terminal at the command prompt, type `dotnet build`
+4. Using the terminal at the command prompt, type `dotnet run`
+5. Open` http://localhost:5000/` in your preferred browser
+* To run the Tests
+1. Navigate to the `\VendorOrderTracker.Tests` directory
+2. Using the terminal at the command prompt, type `dotnet restore`
+3. Using the terminal at the command prompt, type `dotnet test`
 ## License
 License: MIT
 
