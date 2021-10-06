@@ -31,7 +31,8 @@ This is an MVC application to track vendors and orders.
 2. Using the terminal at the command prompt, type `dotnet restore`
 3. Using the terminal at the command prompt, type `dotnet test`
 ## License
-License: MIT
+MIT License
+Copyright (c) [2021] [anthony mcrae]
 
 Distributed under the MIT License. See LICENSE for more information.
 
